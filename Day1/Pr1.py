@@ -1,9 +1,7 @@
 import re, os
 
 #!------------------------- Disclaimer -------------------------!#
-# This solution is a terrible hack. It works for the given input
-# but it can still break for different inputs
-# things like 'oneightwo' would still break it
+# This solution is a terrible hack
 # but oh well, it works for the given input
 # \shrug/
 #!------------------------- Disclaimer -------------------------!#

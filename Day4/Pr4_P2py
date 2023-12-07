@@ -1,0 +1,25 @@
+from Pr4 import *
+
+if __name__ == "__main__":
+    
+    test_input = 'Pr4_test.txt'
+    problem_input = 'Pr4_input.txt'
+
+    test = Cards_from_file(test_input)
+
+    generate_copies(test)
+
+    test_copies = [card.copies for card in test]
+
+    assert test_copies ==[1, 2, 4, 8, 14, 1], f'points: {test_copies}'
+    assert sum(test_copies) == 30
+
+    cards = Cards_from_file(problem_input)
+    
+    generate_copies(cards)
+
+    copies = [card.copies for card in cards]
+
+    print(sum(copies))
+
+
